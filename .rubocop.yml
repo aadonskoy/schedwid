@@ -1,0 +1,16 @@
+Metrics/LineLength:
+  Max: 150
+
+Style/ExpandPathArguments:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+AllCops:
+  Exclude:
+    - 'bin/setup'
+    - 'config/boot.rb'
