@@ -1,0 +1,6 @@
+.clinician-service.brief-info
+  .description
+    %span.name= clinician_service.description
+    %span.duration #{clinician_service.duration} minutes
+  .action
+    = link_to 'Select', clinician_service_path(clinician_service.id)

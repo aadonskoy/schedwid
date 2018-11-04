@@ -1,0 +1,2 @@
+class Office < BaseStructObject
+end

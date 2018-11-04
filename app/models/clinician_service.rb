@@ -1,0 +1,2 @@
+class ClinicianService < BaseStructObject
+end
