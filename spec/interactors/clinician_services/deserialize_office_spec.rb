@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe ClinicianServices::DeserializeOffice do
   let(:execute) { described_class.call(response: response) }
   let(:mock_office_data) { instance_double(Hash) }
-  let(:response) { {'data' => [mock_office_data] } }
+  let(:response) { { 'data' => [mock_office_data] } }
 
   it 'is correct' do
     office_mock = instance_double(Office)

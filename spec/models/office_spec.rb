@@ -10,7 +10,7 @@ RSpec.describe Office, type: :model do
         'id' => id,
         'attributes' => {
           'name' => name,
-          'city' => city,
+          'city' => city
         }
       }
     end

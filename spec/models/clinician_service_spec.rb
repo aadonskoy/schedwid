@@ -8,7 +8,7 @@ RSpec.describe ClinicianService, type: :model do
       {
         'id' => id,
         'attributes' => {
-          'name' => name,
+          'name' => name
         }
       }
     end
